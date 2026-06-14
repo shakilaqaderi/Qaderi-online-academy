@@ -14,7 +14,7 @@
 .navbar {
   width: 100%;
   height: 80px;
-  background-color: #004331;
+  background-color: #3F4E5E;
   padding: 10px;
 }
 .search {
@@ -23,15 +23,15 @@
   top: 23px;
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid #b9a45c;
+  border-bottom: 1px solid #A8B7C7;
   width: 120px;
   font-size: 12px;
-  color: #b9a45c;
+  color: #A8B7C7;
 }
 #toggleDark {
   font-size: 17px;
   cursor: pointer;
-  color: #cab469;
+  color: #A8B7C7;
   position: absolute;
   right: 18px;
   top: 34px;
@@ -39,7 +39,7 @@
 .language {
   font-size: 17px;
   cursor: pointer;
-  color: #cab469;
+  color: #A8B7C7;
   position: absolute;
   right: 44px;
   top: 34px;
@@ -49,8 +49,8 @@
 /* STYLES PART OF FOOTER */
 footer {
   width: 100%;
-  background: #004331;
-  color: #b9a45c;
+  background: #3F4E5E;
+  color: #A8B7C7;
   padding: 50px 0 30px;
   font-size: 14px;
   line-height: 24px;
@@ -92,14 +92,14 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
-  color: #b9a45c;
+  color: #A8B7C7;
 }
 footer form {
   padding-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #b9a45c;
+  border-bottom: 1px solid #A8B7C7;
   margin-bottom: 50px;
 }
 footer form .far {
@@ -109,7 +109,7 @@ footer form .far {
 footer form input {
   width: 100%;
   background: transparent;
-  color: #ccc;
+  color: #F4F5F7;
   border: 0;
   outline: none;
 }
@@ -121,7 +121,7 @@ footer form button {
 }
 footer form button .fas {
   font-size: 16px;
-  color: #b9a45c;
+  color: #A8B7C7;
 }
 footer .social-icons .fab, .email {
   width: 40px;
@@ -130,27 +130,27 @@ footer .social-icons .fab, .email {
   text-align: center;
   line-height: 40px;
   font-size: 20px;
-  color: #004332;
-  background: #b9a45c;
+  color: #2F3B47;
+  background: #A8B7C7;
   margin-right: 15px;
   cursor: pointer;
 }
 footer .social-icons .fab:hover {
-  background: #01271d;
-  color: #b9a45c;
+  background: #2F3B47;
+  color: #A8B7C7;
   transform: scale(1.3);
   transition: 1s;
 }
 footer .social-icons .email:hover {
-  background: #01271d;
-  color: #b9a45c;
+  background: #2F3B47;
+  color: #A8B7C7;
   transform: scale(1.3);
   transition: 1s;
 }
 footer hr {
   width: 90%;
   border: 0;
-  border-bottom: 1px solid #b9a45c;
+  border-bottom: 1px solid #A8B7C7;
   margin: 20px auto;
 }
 footer .text {
@@ -159,7 +159,7 @@ footer .text {
 footer .underline {
   width: 100%;
   height: 2px;
-  background: #dbca92;
+  background: #D7DEE5;
   border-radius: 5px;
   position: absolute;
   top: 40px;
@@ -169,7 +169,7 @@ footer .underline {
 footer .underline span {
   width: 20px;
   height: 100%;
-  background: #9e8945;
+  background: #BCC8D3;
   border-radius: 3px;
   position: absolute;
   top: 0;
@@ -184,7 +184,7 @@ footer .underline span {
 
 /* STYLES PART OF TO TOP */
 .to-top {
-  background-color: #b9a45c;
+  background-color: #A8B7C7;
   position: fixed;
   bottom: 16px;
   right: 32px;
@@ -195,7 +195,7 @@ footer .underline span {
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  color: #004331;
+  color: #2F3B47;
   text-decoration: none;
   opacity: 0;
   pointer-events: none;
@@ -236,30 +236,29 @@ footer .underline span {
 	flex-direction: column;
 	gap: 10px;
 	text-align: center;
-	}
+}
 
-	.pdf-link {
+.pdf-link {
 	width: 80%;
 	display: inline-block;
 	padding: 4px 8px;
-	background-color: #004332;
-	color: #fff;
+	background-color: #2F3B47;
+	color: #F4F5F7;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 15px;
 	border-radius: 12px;
 	transition: all 0.3s ease;
-	}
+}
 
-	.pdf-link:hover {
-	background-color: #ecca95;0;
-	color: #000;
+.pdf-link:hover {
+	background-color: #BCC8D3;
+	color: #2B2F33;
 	transform: scale(1.05);
-	}
-  .openFormBtn:hover {
-    background-color: #ecca95;
-    color: #000;
-    transform: scale(1.05);
-  }
+}
 
-
+.openFormBtn:hover {
+  background-color: #BCC8D3;
+  color: #2B2F33;
+  transform: scale(1.05);
+}
